@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
 import * as Scroll from 'react-scroll';
 import { ToastContainer } from 'react-toastify';
