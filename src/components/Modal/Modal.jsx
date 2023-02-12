@@ -17,6 +17,7 @@ export function Modal({ onClose, image }) {
     return () => {
       window.removeEventListener('keydown', keydownClick);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function backdropClick(evt) {
